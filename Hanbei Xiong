@@ -1,1 +1,7 @@
+from turtle import Turtle
+x axis = Turtle()
+x axis.forward(500)
+y axis = Turtle()
+y axis.left(90)
+y axis.forward(500)
 
