@@ -1,7 +1,10 @@
-from turtle import Turtle
-x axis = Turtle()
-x axis.forward(500)
-y axis = Turtle()
-y axis.left(90)
-y axis.forward(500)
+import plot as pt
+pt.plot([minimum,Q1,median,Q2,maximum],[1,2,3,4,5])
+pt.title('histogram')
+_ = pt.hist(df_swing
+_ = pt.xlabel('histogram x label')
+_ = pt.ylabel('histogram y label')
+pt.show()
+
+
 
